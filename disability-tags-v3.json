@@ -1,0 +1,66 @@
+{
+  "descriptor": {
+    "code": "disability",
+    "name": "Disability",
+    "short_desc": "Indicates the nature of disability"
+  },
+  "list": [
+    {
+      "descriptor": {
+        "code": "vis-imp",
+        "name": "Vision Impairment",
+        "short_desc": "Disability of Blind and low vision"
+      },
+      "tags":[
+        {
+            "level": "Low / Total",
+            "screen-reader-usage": "JAWS / NVDA / Others",
+            "cane-usage": "Yes / No / Sometimes"
+          }
+      ]
+    },
+    {
+      "descriptor": {
+        "code": "hea-imp",
+        "name": "hearing impairment",
+        "short_desc": "Disability of deaf and inability to speak"
+      },
+      "tags":[
+        {
+            "reading-ability": "Full / Partial / No",
+            "sign-language-preferene": "ASL / BSL / Others",
+        }
+      ]
+    },
+    {
+      "descriptor": {
+        "code": "dea-bli",
+        "name": "deaf-blindness",
+        "short_desc": "Disability of both Deaf and Blind"
+      }
+    },
+    {
+      "descriptor": {
+        "code": "polio",
+        "name": "Polio",
+        "short_desc": "Disability due to Polio"
+      }
+    },
+    {
+      "descriptor": {
+        "code": "lep-cur",
+        "name": "Leprosy Cured",
+        "short_desc": "Leprosy Cured disability"
+      }
+    },
+    {
+      "descriptor": {
+        "code": "spe-lan",
+        "name": "Speech and Language Disability",
+        "short_desc": "Speech and Language Disability"
+      }
+    }
+  ]
+}
+
+
